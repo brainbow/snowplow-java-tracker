@@ -79,6 +79,7 @@ public class SchemaPayload implements Payload {
         return this;
     }
 
+    @Deprecated
     @Override
     public void add(String key, String value) {
         /*
@@ -88,6 +89,7 @@ public class SchemaPayload implements Payload {
         logger.debug("add(String, String) method called: Doing nothing.");
     }
 
+    @Deprecated
     @Override
     public void add(String key, Object value) {
         /*
@@ -97,6 +99,7 @@ public class SchemaPayload implements Payload {
         logger.debug("add(String, Object) method called: Doing nothing.");
     }
 
+    @Deprecated
     @Override
     public void addMap(Map<String, Object> map) {
         /*
@@ -106,6 +109,7 @@ public class SchemaPayload implements Payload {
         logger.debug("addMap(Map<String, Object>) method called: Doing nothing.");
     }
 
+    @Deprecated
     @Override
     public void addMap(Map map, Boolean base64_encoded, String type_encoded,
                        String type_no_encoded) {
